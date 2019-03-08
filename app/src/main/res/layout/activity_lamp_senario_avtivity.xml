@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+
+
+    <ImageView
+        android:background="@drawable/selected"
+        android:id="@+id/insert"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="19dp"
+        android:textColor="@color/maintextcolor"
+        android:text="افزودن سناریو ی جدید"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/maintextcolor"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></LinearLayout>
+
+    <ImageView
+        android:background="@drawable/selected"
+        android:id="@+id/observe"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/observe"
+        android:layout_width="128dp"
+        android:layout_height="128dp" />
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="19dp"
+        android:textColor="@color/maintextcolor"
+        android:text="مشاهده ی سناریو ی موجود"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+
+
+    <ImageView
+        android:background="@drawable/image"
+        android:id="@+id/lampoff"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/lampoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="19dp"
+        android:textColor="@color/maintextcolor"
+        android:text="تغییر وضعیت روشنایی"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/maintextcolor"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></LinearLayout>
+    <TextView
+        android:id="@+id/mosbedroom"
+        android:textColor="@color/maintextcolor"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:text="--:--"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="19dp"
+        android:textColor="@color/maintextcolor"
+        android:text="میزان رطوبت محیط"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

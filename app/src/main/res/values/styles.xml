@@ -1,0 +1,34 @@
+<resources>
+
+     Base application theme.
+    <style name="Custom" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorAccent">@color/btn</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="android:colorPrimaryDark">@color/btn_dark</item>
+        <item name="android:colorControlActivated">@color/btn</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+
+     Base application theme.
+
+
+    //dark
+
+
+
+    <style name="Custom1" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:colorPrimaryDark">@color/btn_dark</item>
+        <item name="android:colorControlActivated">@color/back</item>
+        <item name="android:typeface">serif</item>
+    </style>
+    <style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/menu</item>
+        <item name="android:background">?android:attr/actionBarItemBackground</item>
+        <item name="android:contentDescription">"Lala"</item>
+    </style>
+</resources>

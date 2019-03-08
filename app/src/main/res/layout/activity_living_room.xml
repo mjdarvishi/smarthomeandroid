@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+
+
+    <ImageView
+        android:id="@+id/livingroomlamp"
+        android:background="@drawable/image"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/lampoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="19dp"
+        android:layout_gravity="center"
+        android:textColor="@color/maintextcolor"
+        android:text="تغییر وضعیت روشنایی"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/maintextcolor"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></LinearLayout>
+    <ImageView
+        android:id="@+id/livingroomair"
+        android:background="@drawable/image"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/livingroomair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="19dp"
+        android:layout_gravity="center"
+        android:textColor="@color/maintextcolor"
+        android:text="تغییر وضعیت سیستم سرمایشی"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/maintextcolor"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginRight="50dp"
+            android:id="@+id/curclose"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/curclose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/curopen"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/curopenon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+
+        android:textSize="19dp"
+        android:layout_gravity="center"
+        android:textColor="@color/maintextcolor"
+        android:text="تغییر وضعیت پرده ها"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
